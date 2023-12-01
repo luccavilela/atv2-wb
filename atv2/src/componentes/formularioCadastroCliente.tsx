@@ -16,22 +16,27 @@ export default class FormularioCadastroCliente extends Component<props> {
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="nome" type="text" className="validate" />
+                            <label htmlFor="nome">nome</label>
                         </div>
                         <div className="input-field col s6">
                             <input id="nome_social" type="text" className="validate" />
+                            <label htmlFor="nome_social">nome social</label>
                         </div>
                     </div>
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="telefone" type="text" className="validate" />
+                            <label htmlFor="telefone">telefone</label>
                         </div>
                         <div className="input-field col s6">
                             <input id="cpf" type="text" className="validate" />
+                            <label htmlFor="cpf">cpf</label>
                         </div>
                     </div>
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="rg" type="text" className="validate" />
+                            <label htmlFor="rg">rg</label>
                         </div>
                         <div className="input-field col s6">
                             <p>
