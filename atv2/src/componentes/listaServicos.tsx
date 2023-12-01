@@ -40,28 +40,36 @@ export default class ListaServicos extends Component<props> {
                     Listar os serviços mais consumidos por mulheres
                 </button>
                 <div className="collection-item">
-                    Servico 1
+                    Serviço 1 <br/>
+                    Preço: <br/>
+                    Número de vezes comprado:
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Serviço", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Servico 2
+                    Serviço 2 <br/>
+                    Preço: <br/>
+                    Número de vezes comprado:
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Serviço", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Servico 3
+                    Serviço 3 <br/>
+                    Preço: <br/>
+                    Número de vezes comprado:
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Serviço", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Servico 4
+                    Serviço 4 <br/>
+                    Preço: <br/>
+                    Número de vezes comprado:
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Serviço", e)}>Editar</button>
                         <button className="excluir">Excluir</button>

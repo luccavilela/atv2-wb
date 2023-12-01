@@ -11,31 +11,27 @@ export default class FormularioCadastroCliente extends Component<props> {
         let estiloBotao = `btn waves-effect waves-light ${this.props.tema}`
         return (
             <div className="row">
+                <h2> Cadastro de Cliente </h2>
                 <form className="col s12">
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="nome" type="text" className="validate" />
-                            <label htmlFor="nome">nome</label>
                         </div>
                         <div className="input-field col s6">
                             <input id="nome_social" type="text" className="validate" />
-                            <label htmlFor="nome_social">nome social</label>
                         </div>
                     </div>
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="telefone" type="text" className="validate" />
-                            <label htmlFor="telefone">telefone</label>
                         </div>
                         <div className="input-field col s6">
                             <input id="cpf" type="text" className="validate" />
-                            <label htmlFor="cpf">cpf</label>
                         </div>
                     </div>
                     <div className="row">
                         <div className="input-field col s6">
                             <input id="rg" type="text" className="validate" />
-                            <label htmlFor="rg">rg</label>
                         </div>
                         <div className="input-field col s6">
                             <p>

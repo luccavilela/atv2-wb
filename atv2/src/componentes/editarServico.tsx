@@ -11,6 +11,7 @@ export default class EditarServico extends Component<props> {
         let estiloBotao = `btn waves-effect waves-light ${this.props.tema}`
         return (
             <div className="row">
+                <h2> Editar Serviço </h2>
                 <form className="col s12">
                     <div className="row">
                         <div className="input-field col s6">

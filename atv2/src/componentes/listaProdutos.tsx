@@ -40,28 +40,36 @@ export default class ListaProdutos extends Component<props> {
                     Listar os produtos mais consumidos por mulheres
                 </button>
                 <div className="collection-item">
-                    Produto 1
+                    Produto 1: <br/>
+                    Preço: <br/>
+                    Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Produto 2
+                    Produto 2: <br/>
+                    Preço: <br/>
+                    Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Produto 3
+                    Produto 3: <br/>
+                    Preço: <br/>
+                    Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
                         <button className="excluir">Excluir</button>
                     </div>
                 </div>
                 <div className="collection-item">
-                    Produto 4
+                    Produto 4: <br/>
+                    Preço: <br/>
+                    Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
                         <button className="excluir">Excluir</button>

@@ -17,6 +17,7 @@ export default class TopProdutosMulheres extends Component<props> {
                 <h2> Produtos mais comprados por mulheres: </h2>
                 <div className="collection-item">
                     Produto 1 <br/>
+                    Preço: <br/>
                     Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
@@ -25,6 +26,7 @@ export default class TopProdutosMulheres extends Component<props> {
                 </div>
                 <div className="collection-item">
                     Produto 2 <br/>
+                    Preço: <br/>
                     Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
@@ -33,6 +35,7 @@ export default class TopProdutosMulheres extends Component<props> {
                 </div>
                 <div className="collection-item">
                     Produto 3 <br/>
+                    Preço: <br/>
                     Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
@@ -41,6 +44,7 @@ export default class TopProdutosMulheres extends Component<props> {
                 </div>
                 <div className="collection-item">
                     Produto 4 <br/>
+                    Preço: <br/>
                     Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
@@ -49,6 +53,7 @@ export default class TopProdutosMulheres extends Component<props> {
                 </div>
                 <div className="collection-item">
                     Produto 5 <br/>
+                    Preço: <br/>
                     Quantidade vendida: 
                     <div className="botoes">
                         <button className="waves-effect waves-light editar" onClick={(e) => this.props.seletorView("Editar Produto", e)}>Editar</button>
