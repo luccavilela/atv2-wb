@@ -22,6 +22,8 @@ import TopProdutosMulheres from "./topProdutosMulheres";
 import TopServicosMaisConsumidos from "./topServicosMaisConsumidos";
 import TopServicosHomens from "./topServicosHomens";
 import TopServicosMulheres from "./topServicosMulheres";
+import RealizarVendaProduto from "./realizarVendaProduto";
+import RealizarVendaServico from "./realizarVendaServico";
 
 type state = {
     tela: string
@@ -45,7 +47,7 @@ export default class Roteador extends Component<{}, state> {
     }
 
     render() {
-        let barraNavegacao = <BarraNavegacao seletorView={this.selecionarView} tema="purple lighten-4" botoes={['Home', 'Clientes', 'Produtos', 'Serviços']} />
+        let barraNavegacao = <BarraNavegacao seletorView={this.selecionarView} tema="purple lighten-4" botoes={['Home', 'Clientes', 'Produtos', 'Serviços', 'Venda de Produtos', 'Venda de Serviços']} />
         switch (this.state.tela) {
             case 'Home':
                 return (
@@ -196,6 +198,20 @@ export default class Roteador extends Component<{}, state> {
                         <TopServicosMulheres seletorView={this.selecionarView} tema="purple lighten-4" />
                     </>
                 );
+            case 'Venda de Produtos':
+              return (
+                <>
+                  {barraNavegacao}
+                  <RealizarVendaProduto seletorView={this.selecionarView} tema="purple lighten-4" />
+                </>
+              );
+            case 'Venda de Serviços':
+              return (
+                <>
+                  {barraNavegacao}
+                  <RealizarVendaServico seletorView={this.selecionarView} tema="purple lighten-4" />
+                </>
+              );
         }
 
     }
